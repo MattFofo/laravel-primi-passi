@@ -21,14 +21,23 @@ Route::get('/', function () {
     return view('home', $greetings);
 });
 
-Route::get('/pagina1', function () {
-    return view('pagina1');
-});
+Route::get('/page1', function () {
+    $page = [
+        'title' => 'Page1'
+    ];
+    return view('pagina1', $page);
+})->name('pagina1');
 
-Route::get('/pagina2', function () {
-    return view('pagina2');
-});
+Route::get('/page2', function () {
+    $page = [
+        'title' => 'Page2'
+    ];
+    return view('pagina2', $page);
+})->name('pagina2');
 
-Route::get('/pagina3', function () {
-    return view('pagina3');
-});
+Route::get('/page3', function () {
+    $page = [
+        'title' => 'Page3'
+    ];
+    return view('pagina3', $page);
+})->name('pagina3');
