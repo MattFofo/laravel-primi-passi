@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+        <h1>{{ $type }} {{ $name }} with Laravel!</h1>
         <ul>
             <li>
                 <a href="{{ route('pagina1') }}">pagina1</a>
@@ -20,6 +21,5 @@
             </li>
         </ul>
     </header>
-    <h1>{{ $type }} {{ $name }} with Laravel!</h1>
 </body>
 </html>
