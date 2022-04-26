@@ -7,6 +7,19 @@
     <title>Laravel primi passi</title>
 </head>
 <body>
+    <header>
+        <ul>
+            <li>
+                <a href="/pagina1">pagina1</a>
+            </li>
+            <li>
+                <a href="/pagina2">pagina2</a>
+            </li>
+            <li>
+                <a href="/pagina3">pagina3</a>
+            </li>
+        </ul>
+    </header>
     <h1>{{ $type }} {{ $name }} with Laravel!</h1>
 </body>
 </html>
