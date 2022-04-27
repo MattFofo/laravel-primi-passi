@@ -8,5 +8,6 @@
     </head>
     <body>
         <h1>{{ $title }}</h1>
+        <a href="/">HOME</a>
     </body>
 </html>
